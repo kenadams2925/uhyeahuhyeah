@@ -1,4 +1,5 @@
 const { Client } = require('discord.js-selfbot-v13');
+const keep_alive = require('./keep_alive');
 
 const client = new Client({
   checkUpdate: false,
